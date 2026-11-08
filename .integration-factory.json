@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "006def2eec486c82aca51a8aea2d9df85f5e11f5870ba2d355898a8ddb507144",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://api.akkio.com/api/v1/api.yaml"
+  ],
+  "id": "akkio-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Akkio MCP setup and connection checker",
+  "description": "Generate Akkio MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "akkio",
+  "appName": "Akkio",
+  "providerDocs": "https://api.akkio.com/api/v1/api.yaml",
+  "providerWebsite": "https://www.akkio.com/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://docs.akkio.com/akkio-docs/rest-api/api-introduction/quickstart",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-akkio-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
