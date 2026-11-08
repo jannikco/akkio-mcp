@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-akkio",
+      "description": "Connect AI agents to Akkio using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-akkio/SKILL.md": "f2d4cfa0b0d552ff0d3cda4d1e1c5618db4ca82383a982721b50982c3b944ae8"
+  }
+}
